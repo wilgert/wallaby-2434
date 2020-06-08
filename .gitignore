@@ -1,2 +1,51 @@
-.idea
-node_modules
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/.tmp
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.iml
+Session.vim
+.htmlhintrc
+
+# IDE - VSCode
+.vscode/*
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/documentation
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+debug.log
+/mocks/utils/decode-encode-base64-json/jsonData.json
+/mocks/utils/decode-encode-base64-json/input.txt
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# cypress.io
+/cypress.zip
+/cypress/videos
+/cypress/screenshots
+
+#System Files
+.DS_Store
+Thumbs.db
+cypress.zip
